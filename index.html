@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>श्रीव्यासतीर्थसंशोधनप्रतिष्ठानम्</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+    
+<!--
+
+TemplateMo 569 Edu Meeting
+
+https://templatemo.com/tm-569-edu-meeting
+
+-->
+  </head>
+  <script>
+    function renderTime(){
+    //Date
+    var mydate = new Date();
+    var year = mydate.getFullYear();
+    if(year<1000)
+    {
+        year+=1900;
+    }
+    var day = mydate.getDay();
+    var month = mydate.getMonth();
+    var daym = mydate.getDate();
+    var dayarray = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+    var montharray = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+    // Date end
+    var currentTime = new Date();
+    var h = currentTime.getHours()
+    //Time
+    var currentTime = new Date();
+    var h = currentTime.getHours();
+    var m = currentTime.getMinutes();
+    var s = currentTime.getSeconds();
+    if(h==24)
+    {
+        h = 0;
+    }
+    else if(h>12)
+    {
+        h = h - 0;
+    }
+
+    if(h<10)
+    {
+        h = "0"+h;
+    }
+    if(m<10)
+    {
+        m = "0"+m;
+    }
+    if(s<10)
+    {
+        s = "0"+s;
+    }
+
+    var myClock = document.getElementById("date-time");
+    myClock.textContent = "" +dayarray[day]+" "+daym+" "+montharray[month]+" "+year+" | "+h+":"+m+":"+s;
+
+    setTimeout("renderTime()", 1000);
+}
+renderTime();
+  </script>
+
+<body onload="renderTime();">
+
+  <!-- Sub Header -->
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <div class="left-content">
+            <p id="date-time"></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="right-icons">
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <a href="index.html" class="logo">
+                        श्रीव्यासतीर्थसंशोधनप्रतिष्ठानम्
+                      </a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav">
+                          <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                          <li><a href="#about-us">About Us</a></li>
+                          <li class="scroll-to-section"><a href="#events">Events</a></li>
+                          <li class="scroll-to-section"><a href="#gallery">Gallery</a></li> 
+                          <li class="scroll-to-section"><a href="#contact">Contact Us</a></li> 
+                      </ul>        
+                      <a class='menu-trigger'>
+                          <span>Menu</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <source src="assets/images/pexels-julia-m-cameron-6893741.mp4" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="caption">
+              <h2>श्रीव्यासतीर्थसंशोधनप्रतिष्ठानम् </h2>
+              <p> </p>
+
+          </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+  <section class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-service-item owl-carousel">
+          
+            <div class="item">
+                <img src="assets/images/WhatsApp Image 2022-05-04 at 11.26.34 AM.jpeg" alt="">
+            </div>
+            
+            <div class="item">
+                <img src="assets/images/shelf-2.jpeg" alt="">
+            </div>
+            
+            <div class="item">
+                <img src="assets/images/shelf-3.jpeg" alt="">
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Information" id="about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>About Us</h2>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="categories">
+            <h4>About Us</h4>
+            <p>
+              ಶ್ರೀವ್ಯಾಸತೀರ್ಥಸಂಶೋಧನಪ್ರತಿಷ್ಠಾನ ಸಂಸ್ಥೆಯ ಪರಿಚಯ
+
+              ಶ್ರೀ ವ್ಯಾಸರಾಜಮಠಕ್ಕೆ ಸುಮಾರು ೮೦೦ ವರ್ಷಗಳ ಇತಿಹಾಸವಿದೆ. ಉಡುಪಿಯ ಸಮೀಪ ಪಾಜಕ
+              ಕ್ಷೇತ್ರದಲ್ಲಿ ಅವತರಿಸಿದ ಶ್ರೀಮನ್ಮಧ್ವಾಚಾರ‍್ಯರು ಈ ಮಠದ ಮೂಲಪುರುಷರು,
+              ಶ್ರೀಮನ್ಮಧ್ವಾಚಾರ್ಯರ ನಂತರ ಶ್ರೀಪದ್ಮನಾಭತೀರ‍್ಥರು, ಶ್ರೀಜಯತೀರ್ಥರು,
+              ಶ್ರೀರಾಜೇಂದ್ರತೀರ್ಥರು ಇವರೇ ಮುಂತಾದ ಮಹನೀಯರು ಪೀಠವನ್ನಲಂಕರಿಸಿದರು. ನಂತರ
+              ವಿಜಯನಗರಸಾಮ್ರಾಜ್ಯದ ರಾಜರಿಗೆ ರಾಜಗುರುಗಳಾಗಿದ್ದ, ತಿರುಮಲದ ಶ್ರೀನಿವಾಸದೇವರನ್ನು
+              ೧೨ ವರ್ಷ ಕಾಲ ಪೂಜಿಸಿದ ಶ್ರೀವ್ಯಾಸರಾಜರು ಈ ಪೀಠವನ್ನು ಅಲಂಕರಿಸಿದರು. ಅವರ
+              ಅಸಾಧಾರಣ ವ್ಯಕ್ತಿತ್ವದಿಂದಲೇ ಈ ಮಠಕ್ಕೆ ವ್ಯಾಸರಾಜಮಠವೆಂದು ಪ್ರಸಿದ್ಧಿ ಬಂದಿತು. ಇವರು
+              ವ್ಯಾಸಸಾಹಿತ್ಯವಲ್ಲದೇ ದಾಸಸಾಹಿತ್ಯವನ್ನು ಶ್ರೀಮಂತಗೊಳಿಸಿದ ಮಹನೀಯರು, ಈ ಮಠವು
+              ಮೈಸೂರಿನ ಸಮೀಪದಲ್ಲಿರುವ ಸೋಸಲೆ ಗ್ರಾಮದಲ್ಲಿದೆ.
+              ಶ್ರೀ ವ್ಯಾಸರಾಜರ ನಂತರ ಇವರ ಪರಂಪರೆಯಲ್ಲಿ ಅನೇಕ ಯತಿಗಳು ಗ್ರಂಥಕಾರರಾಗಿ
+              ಮಾನ್ಯರಾಗಿದ್ದಾರೆ. ಭಾರತೀಯ ತತ್ವಶಾಸ್ತ್ರಕ್ಕೆ ಅವರ ಕೊಡುಗೆ ಅಪಾರ. ಅವರಲ್ಲಿ
+              ಮುಖ್ಯರಾದವರು ಶ್ರೀ ಶ್ರೀ ರಘುನಾಥತೀರ‍್ಥರು, ಶ್ರೀಜಗನ್ನಾಥಯತಿಗಳು ಮುಂತಾದವರು. ಇವರ
+              ಪರಂಪರೆಯಲ್ಲಿ ೪೧ನೆಯವರಾಗಿ ಪ್ರಸ್ತುತ ಪೀಠದಲ್ಲಿ ವಿರಾಜಮಾನರಾದ ಶ್ರೀ ಶ್ರೀ
+              ವಿದ್ಯಾಶ್ರೀಶತೀರ್ಥರು ನ್ಯಾಯ, ವೇದಾಂತ, ವ್ಯಾಕರಣ, ಮೀಮಾಂಸಾ ಮುಂತಾದವುಗಳಲ್ಲಿ
+
+              ತಲಸ್ಪರ್ಶಿಪಾಂಡಿತ್ಯ ಸಂಪಾದಿಸಿ ತಿರುಪತಿಯ ರಾಷ್ಟ್ರೀಯಸಂಸ್ಕೃತ ವಿದ್ಯಾಪೀಠದ
+              ಉಪಕುಲಪತಿಗಳಾಗಿ ಸೇವೆ ಸಲ್ಲಿಸಿದ್ದರಲ್ಲದೇ ನೂರಕ್ಕೂ ಹೆಚ್ಚು ಗ್ರಂಥಗಳ ಸಂಪಾದನೆ ಹಾಗೂ
+              ಪ್ರಕಾಶನಕ್ಕೆ ಭಾಜನರಾಗಿದ್ದಾರೆ.
+              ಪೂರ್ಣಪ್ರಜ್ಞ ಸಂಶೋಧನ ಮಂದಿರದ ನಿರ್ದೇಶಕರಾಗಿ, ೨೮ ವರ್ಷಗಳ ಕಾಲ ದ್ವೈತವೇದಾಂತ
+              ಅಧ್ಯಯನ ಮತ್ತು ಸಂಶೋಧನ ಪ್ರತಿಷ್ಠಾನದ ವಿಭಾಗದ ಅಧ್ಯಕ್ಷರಾಗಿ ಸಂಸ್ಥೆಯ ಸಮಗ್ರ
+              ಅಭಿವೃದ್ಧಿಗೆ ಕಾರಣರಾಗಿದ್ದಾರೆ.
+            </p>
+            
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="categories">
+                <h4>Vision</h4>
+                <h5>ಸಂಶೋಧನ ಪ್ರತಿಷ್ಠಾನದ ಉದ್ದೇಶಗಳು</h5>
+                <ul>
+                  <li>೧.
+                    <a>ಸಂಸ್ಕೃತ, ತುಳು, ನಂದಿನಾಗರಿ, ಪಾಲಿ ಮೊದಲಾದ ಲಿಪಿಗಳಲ್ಲಿರುವ ಅಪ್ರಟಿತ, ಪ್ರಾಚೀನ ಹಾಗೂ
+                      ಅಪೂರ್ವ ಸಂಸ್ಕೃತ ಗ್ರಂಥಗಳ ಸಂಗ್ರಹ, ಅಧ್ಯಯನ, ಸಂಶೋಧನ ಮತ್ತು ಪ್ರಕಾಶನ.</a>
+                  <li>
+                    ೨.<a>ನ್ಯಾಯ, ವೇದಾಂತ, ಮೀಮಾಂಸ, ತರ್ಕ, ವ್ಯಾಕರಣ, ಇತಿಹಾಸ-ಪುರಾಣ ಮುಂತಾದ ಶಾಸ್ತ್ರಗಳಲ್ಲಿ
+                      ಎಮ್.ಫಿಲ್ ಮತ್ತು ಪಿ.ಹೆಚ್.ಡಿ. ಪದವಿಗೆ ಅರ್ಹರಾದ ಸಂಶೋಧಕರಿಗೆ ಮಾರ್ಗದರ್ಶನ ನೀಡುವುದು.</a>
+                  </li>
+                  <li>೩.<a>ಈ-ಸಂಸ್ಕೃತ ಕಲಿಕೆಗೆ ಪ್ರೋತ್ಸಾಹ ನೀಡುವುದು.</a></li>
+                  <li>೪.<a>ಈ-ಗ್ರಂಥಾಲಯವನ್ನು ಅಭಿವೃದ್ಧಿ ಪಡಿಸುವುದು.</a></li>
+                  <li>೫.<a>ರಾಷ್ಟ್ರೀಯ ಮಟ್ಟದ ವಿಚಾರಗೋಷ್ಠಿಗಳನ್ನು ಹಾಗೂ ಕಾರ್ಯಾಗಾರಗಳನ್ನು ಏರ್ಪಡಿಸುವುದು.</a></li>
+                  <li>೬.<a>ವೇದ ಅಧ್ಯಯನ ಕೇಂದ್ರವನ್ನು ರಾಜ್ಯದ ಬೇರೆ ಬೇರೆ ಸ್ಥಳಗಳಲ್ಲಿ ಪ್ರಾರಂಭಿಸುವುದು.</a></li>
+                  <li>೭,<a>ಉಚಿತ ಯೋಗ ಶಿಬಿರವನ್ನು ಏರ್ಪಡಿಸುವುದು.</a></li>
+                  <li>೮.<a>ಉಚಿತ ವೈದ್ಯಕೀಯ ಶಿಬಿರಗಳನ್ನು ಏರ್ಪಡಿಸುವುದು.</a></li>
+                  <li>೯.<a>ವಿಶೇಷ ಉಪನ್ಯಾಸಗಳನ್ನು ಏರ್ಪಡಿಸುವ ಮೂಲಕ ಭಾರತೀಯ ಸಾಮಾಜಿಕ, 
+                    ನೈತಿಕ ಹಾಗೂ ಆಧ್ಯಾತ್ಮಿಕ ಮೌಲ್ಯಗಳನ್ನು ಸಮಾಜದಲ್ಲಿ ಜಾಗೃತಿಗೊಳಿಸುವುದು.</a></li>
+                  <li>೧೦. <a> ಭಾರತೀಯ ಸಂಸ್ಕೃತಿ ಹಾಗೂ ಪರಂಪರೆಯನ್ನು ಸಂರಕ್ಷಿಸುವುದರ ಮೂಲಕ ಸಮಾಜದ ರ‍್ವಾಂಗೀಣ
+                    ಅಭಿವೃದ್ಧಿಗಾಗಿ ಶ್ರಮಿಸುವುದು.
+                     ಅಪೂರ್ವ ಗ್ರಂಥಗಳ ಸಂಪಾದನೆ ಮತ್ತು ಪ್ರಕಾಶನ
+                    </a></li>
+                    <li>೧. <a>ಭಾರತೀಯ ತತ್ವಜ್ಞಾನಕ್ಕೆ ವ್ಯಾಸರಾಜ ಮಠದ ಪರಂಪರೆಯಲ್ಲಿ ಬಂದ ಅನೇಕ ಪೀಠಾಧೀಶರು
+                      ಗ್ರಂಥಕರ್ತೃಗಳಾಗಿ ತಮ್ಮದೇ ಕೊಡುಗೆಯನ್ನು ನೀಡಿದ್ದಾರೆ. ಅವರಿಂದ ರಚಿತವಾದ ಅಪೂರ್ವಗ್ರಂಥಗಳ
+                      ಸಂಪಾದನೆ ಕಾರ್ಯವನ್ನು ಕೈಗೊಳ್ಳಲಾಗುವುದು.</a></li>
+                </ul>
+                <p>
+                  
+                
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                  
+                  
+                </p>
+                
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="categories">
+                <h4>Mission</h4>
+                <p>
+                  <ol>
+                    <li>ಪಂಚರಾತ್ರಾಗಮ ಕೋಶ</li>
+                    <p>
+                      ವಿಷ್ಣುವಿನಿಂದ ರಚಿತವಾದ ಆಗಮವೇ ಪಂಚರಾತ್ರಾಗಮ. ಇದು ವೈಷ್ಣವಾಗಮ. 
+                      ಈ ಗ್ರಂಥವು ಬಹಳ ವಿಸ್ತೃತವಾಗಿದ್ದು ಸುಮಾರು ಇಪ್ಪತ್ತೊಂದು ಸಂಹಿತೆಗಳನ್ನು 
+                      ಒಳಗೊಂಡಿದೆ. ಇವುಗಳಲ್ಲಿ ಕೆಲವು ಮುದ್ರಿತವಾಗಿದ್ದು ಅವುಗಳು ಕೂಡ ಪ್ರಸ್ತುತ 
+                      ಲಭ್ಯವಿರುವುದಿಲ್ಲ. ಇದರ ಲಭ್ಯವಿರುವ ಹಸ್ತಪ್ರತಿಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ 
+                      ಪ್ರಕಟಗೊಂಡಿರುವ ಪ್ರತಿಗಳೊಂದಿಗೆ ವಿಮರ್ಶಿಸಿ ಶುದ್ಧಪಾಠವನ್ನು ಸಿದ್ಧಗೊಳಿಸಿ 
+                      ಪ್ರಕಾಶನ ಮಾಡಲಾಗುವುದು. ಹಾಗೂ ಕನ್ನಡ ಅನುವಾದದೊಂದಿಗೆ ಪ್ರಕಾಶಿಸಲಾಗುವುದು. 
+                      ಇದು ಸಂಶೋಧಕರಿಗೆ ವಿದ್ವಾಂಸರಿಗೆ ಹಾಗೂ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಅತ್ಯಂತ ಉಪಯುಕ್ತವಾಗಿರುತ್ತದೆ.
+                    </p>
+                    <li>ದ್ವೆತ ವಾಙ್ಮಯದ ಡಿಜಟೀಲೀಕರಣ</li>
+                    <p>
+                      ಭಾರತೀಯ ತತ್ತ್ವಜ್ಞಾನದ ಪರಂಪರೆಗೆ ಜಗದ್ಗುರುಗಳಾದ ಶ್ರೀಮಧ್ವಾಚಾರ್ಯರು 
+                      ವಿಶಿಷ್ಠವಾದ ಕೊಡುಗೆಯನ್ನು ನೀಡಿದವರು. ಬ್ರಹ್ಮಸೂತ್ರಗಳಿಗೆ ಹೊಸ 
+                      ರೀತಿಯಲ್ಲಿ ವಿಮರ್ಶಿಸಿ ಭಾಷ್ಯ, ಅನುವ್ಯಾಖ್ಯಾನ ಮುಂತಾದ ಗ್ರಂಥಗಳನ್ನು 
+                      ರಚಿಸಿದ್ದಾರೆ. ಇದೇ ಪರಂಪರೆಯಲ್ಲಿ ಮುಂದೆ ಬಂದ ಜಯತೀರ್ಥರು, 
+                      ವ್ಯಾಸರಾಜರು, ವಾದಿರಾಜರು ಮುಂತಾದವರು ವ್ಯಾಖ್ಯಾನಗಳನ್ನು 
+                      ಟಿಪ್ಪಣಿಗಳನ್ನು ರಚಿಸಿ ಸಾಹಿತ್ಯವನ್ನು ಶ್ರಿಮಂತಗೊಳಿಸಿದ್ದಾರೆ. 
+                      ಹಾಗೆಯೇ ಪುರಂದರದಾಸರು, ಕನಕದಾಸರು ಮುಂತಾದ ದಾಸವರೇಣ್ಯರು 
+                      ಕನ್ನಡ ಕೃತಿಗಳನ್ನು ರಚಿಸಿ ಜನಸಾಮಾನ್ಯರಿಗೆ ತತ್ತ್ವಜ್ಞಾನವನ್ನು ಮುಟ್ಟಿಸಿದ 
+                      ಮಹತ್ತಾದ ಕಾರ್ಯವನ್ನು ಮಾಡಿದ್ದಾರೆ. ಈ ಎಲ್ಲಾ ಕಾರ್ಯಗಳು ಈಗಾಗಲೇ 
+                      ಪುಸ್ತಕ ರೂಪದಲ್ಲಿ ಪ್ರಕಾಶನವಾಗಿ ಇನ್ನೂ ಕೆಲವು ಕಾರ್ಯಗಳು ನಡೆಯುತ್ತಿವೆ. 
+                      ಇವತ್ತಿನ ಕಾಲಘಟ್ಟಕ್ಕೆ ಅನುಸಾರವಾಗಿ ಈ ಎಲ್ಲಾ ಕಾರ್ಯಗಳನ್ನು ನೂತನ 
+                      ತಂತ್ರಾಂಶಗಳನ್ನು ಬಳಸಿ ಜನಸಾಮಾನ್ಯರಿಗೆ ಸುಲಭವಾಗಿ ತಲುಪಿಸುವ 
+                      ಡಿಜಿಟೀಲೀಕರಣ ಕಾರ್ಯವನ್ನು ಮಾಡಲಾಗುವುದು.
+                    </p>
+                  </ol>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Events" id="events">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="item">
+                <h3>Past Events</h3>
+                <ol>
+                  <li><a href="#">ರಾಷ್ಟ್ರೀಯ ವಿಚಾರಗೋಷ್ಠಿಗಳು : ಇಪ್ಪತ್ತೈದಕ್ಕೂ ಹೆಚ್ಚು ವಿಚಾರಗೋಷ್ಠಿಗಳನ್ನು ಏರ್ಪಡಿಸಿಸಲಾಗಿದೆ.</a></li>
+                  <li><a href="#">ಪ್ರಾಮಾಣ್ಯವಾದಃ</a></li>
+                  <li><a href="#">ತರ್ಕತಾಂಡವೇ ಶಕ್ತಿವಾದ</a></li>
+                  <li><a href="#">ತಾತ್ಪರ್ಯಚಂದ್ರಿಕಾಯಾಂ ಜಿಜ್ಞಾಸಾಧಿಕರಣಮ್ </a></li>
+                  <li><a href="#">ತಾತ್ರ‍್ಯಚಂದ್ರಿಕಾಯಾಂ ಜನ್ಮಾಧಿಕರಣಮ್</a></li>
+                  <li><a href="#">ಓಂಕಾರವಾದಃ</a></li>
+                  <li><a href="#">ಜಿಜ್ಞಾಸಾಶಬ್ದರ‍್ಥವಿಚಾರಃ</a></li>
+                </ol>
+                </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="item">
+                <h3>Upcoming Events</h3>
+                <p></p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="item">
+            <h3>Workshops</h3>
+            <ol>
+              <li><a href="#">ವಿದ್ವತ್‌ಗೋಷ್ಠಿಗಳು : ಶ್ರೀರಂಗ, ಬೆಂಗಳೂರು ಮತ್ತು ತಿರಮಕೂಡಲು ಮುಂತಾದ ಸ್ಥಳಗಳಲ್ಲಿ
+                ವೇದಾಂತ ಹಾಗೂ ವ್ಯಾಕರಣ ಹಾಗೂ ಮೀಮಾಂಸಾ ವಿಷಯವನ್ನು ಕುರಿತು ವಿದ್ವತ್
+                ಗೋಷ್ಠಿಗಳನ್ನು ಏರ್ಪಡಿಸಲಾಗುತ್ತದೆ. ಚೆನ್ನೈ, ಮೈಸೂರು, ತಿರುಪತಿ, ಬೆಂಗಳೂರು ಮುಂತಾದ
+                ಸ್ಥಳಗಳಿಂದ ವಿದ್ವಾಂಸರು ಗೋಷ್ಠಿಯಲ್ಲಿ ಭಾಗವಹಿಸುತ್ತಾರೆ.</a></li>
+              <li><a href="#">೨. ಶೈಕ್ಷಣಿಕಶಿಬಿರ : ಮಕ್ಕಳಿಗಾಗಿ ಮೈಸೂರು, ಬೆಂಗಳೂರು ಮುಂತಾದ ಸ್ಥಳಗಳಲ್ಲಿ ಬೇಸಿಗೆ
+                ಶಿಬಿರಗಳನ್ನು ಏರ್ಪಡಿಸಿ ಮಕ್ಕಳ ಸರ್ವತೋ ಮುಖ ಅಭಿವೃದ್ಧಿಗೆ ಪ್ರಯತ್ನಿಸಲಾಗುತ್ತದೆ</a></li>
+              <li><a href="#">ಸ್ಕೈಪ್ ಮೂಲಕ ಪಾಠ : ವೇದಾಂತ, ವ್ಯಾಕರಣ ಪಾಠಗಳನ್ನು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ
+                ಮಾಡಲಾಗುತ್ತಿದೆ.</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Gallery" id="gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="owl-courses-item owl-carousel">
+            <div class="item">
+              <img src="assets/images/books.jpeg" alt="Image one">
+              
+            </div>
+            <div class="item">
+              <img src="assets/images/shelf-1.jpeg" alt="Image two">
+              
+            </div>
+            <div class="item">
+              <img src="assets/images/shelf-2.jpeg" alt="Image three">
+              
+            </div>
+            <div class="item">
+              <img src="assets/images/shelf-3.jpeg" alt="Image four">
+              
+            </div>
+            <div class="item">
+              <img src="assets/images/WhatsApp Image 2022-05-04 at 11.26.34 AM.jpeg" alt="Image four">
+              
+            </div>
+  </section>
+
+  <section class="Publications" id="publications">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>Publications</h2>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="categories">
+            <ol>
+              <li>ಋಗ್ಭಾಷ್ಯಟೀಕಾವಿವೃತಿಃ</li>
+              <p>ಶ್ರೀ ಕಂಬಾಲೂರು ರಾಮಚಂದ್ರತೀರ್ಥರಿಂದ ರಚಿತವಾದ ಶ್ರೀಮದಾನಂದತೀರ್ಥರಿಂದ ರಚಿಸಲ್ಪಟ್ಟ ಋಗ್ಭಾಷ್ಯಕ್ಕೆ 
+                ರಚಿತವಾದ ವ್ಯಾಖ್ಯಾನ. ಈ ಕೃತಿಯು ಈವರೆಗೂ ಮುದ್ರಿತವಾಗದೇ ತಾಡವಾಲೆ ಪ್ರತಿಯ ರೂಪದಲ್ಲಿ 
+                ತುಳುಭಾಷೆಯಲ್ಲಿ ಇತ್ತು. ಇದರ ಸಂಶೋಧನಾಕಾರ್ಯ ಪೂರ್ಣಗೊಂಡಿದ್ದು, ಮೊದಲನೇ ಭಾಗವು ಪ್ರಕಾಶಿಸಲಾಗಿದೆ.</p>
+                <li>ಪದಾರ್ಥವಿವೇಕ</li>
+                <p>ಶ್ರೀರಘುನಾಥತೀರ್ಥರಿಂದ ರಚಿತವಾದ ಸ್ವತಂತ್ರಕೃತಿ. ಈ ಕೃತಿಯು ಇಲ್ಲಿಯವರೆಗೂ ಮುದ್ರಿತವಾಗದೆ ತಾಡವಾಲೆಯ ರೂಪದಲ್ಲಿತ್ತು. 
+                  ಇದರ ಸಂಶೋಧನಾಕಾರ್ಯ ಪೂರ್ಣಗೊಂಡಿದ್ದು ಪ್ರಕಾಶಿಸಲಾಗಿದೆ.</p>
+                  <li>ಶ್ರೀವ್ಯಾಸಯೋಗಿಚರಿತಮ್</li>
+                  <p>ವಿಜಯನಗರ ಸಾಮ್ರಾಜ್ಯದ ಚಕ್ರವರ್ತಿಯಾದ ಶ್ರೀಕೃಷ್ಣದೇವರಾಯನ ರಾಜಗುರುಗಳಾಗಿ ಸಂಸ್ಕçತ 
+                    ಹಾಗೂ ಕನ್ನಡ ಪ್ರಪಂಚಕ್ಕೆ ದೊಡ್ಡ ಕೊಡುಗೆಯನ್ನು ನೀಡಿದ ಶ್ರೀವ್ಯಾಸರಾಜರ ಜೀವನ ಚರಿತ್ರೆಯ 
+                    ಮುಖ್ಯವಿಷಯಗಳನ್ನು ಆಧರಿಸಿ. ರಚಿತವಾದ ಕಾವ್ಯ ವ್ಯಾಸಯೋಗಿಚರಿತಂ ಇದನ್ನು ರಚಿಸಿದ ಕವಿ 
+                    ಸೋಮನಾಥ ಇದರ ಪದಪದಾರ್ಥ ಹಾಗೂ ಭಾವಾರ್ಥ ಕನ್ನಡದಲ್ಲಿ ಇದೇ ಪ್ರಥಮಬಾರಿಗೆ ಸಂಸ್ಥೆಯಿAದ ಪ
+                    ್ರಕಟಿಸಲಾಗಿದೆ.</p>
+                    <li>ಶ್ರೀಮನ್ನ್ಯಾಯಾಮೃತಮ್</li>
+                    <p>
+                      ನಾಡಿನ ಹೆಮ್ಮೆಯ ವಿದ್ವಾಂಸರಾದ ವೀರನಾರಾಯಣಚಾರ್ಯ ಪಾಂಡುರಂಗಿಯವರು 
+                      ನ್ಯಾಯಾಮೃತ ಗ್ರಂಥದ ಮೇಲೆ ಬಂದಿರುವ ಅನೇಕ ಆಕ್ಷೇಪಗಳು ಹಾಗೂ ಅದರ ಉತ್ತರಗಳನ್ನು 
+                      ಅದ್ವೈತಸಿದ್ಧಿ, ತರಂಗಿಣಿ, ಕಂಟಕೋದ್ಧಾರ ಮುಂತಾದ ಗ್ರಂಥಗಳಿAದ ಸಂಗ್ರಹಿಸಿ ಸಂಪಾದಿಸಿದ್ದಾರೆ. 
+                      ಇದರ ಮುದ್ರಣವು ಸಂಸ್ಥೆಯಿಂದ ನಡೆದಿದೆ.
+                    </p>
+                    <li>ಶ್ರೀ ವಿದ್ಯಾಪ್ರಸನ್ನತೀರ್ಥರ ದೇವರನಾಮಗಳು</li>
+                    <p>ಶ್ರೀವ್ಯಾಸರಾಜಮಠದ ದಿವ್ಯಪರಂಪರೆಯಲ್ಲಿ ವಿರಾಜಮಾನರಾದ ಶ್ರೀವಿದ್ಯಾಪ್ರಸನ್ನತೀರ್ಥರು ಜನರಿಗೆ ಬಹಳ ಉಪಯುಕ್ತವಾದ ದೇವರನಾಮಗಳನ್ನು 
+                      ತಿಳಿಗನ್ನಡದಲ್ಲಿ ರಚಿಸಿದ್ದಾರೆ. ಅದರ ಸಂಗ್ರಹ ಹಾಗೂ ಮುದ್ರಣ ಸಂಸ್ಥೆಯಿಂದ ನಡೆದಿದೆ.</p>
+            </ol>
+
+            
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="categories">
+
+                <ol style="counter-reset: my-awesome-counter 5;"><li>ಶ್ರೀ ರಾಘವೇಂದ್ರಸ್ತೋತ್ರದ ಚಿಂತನ-ಮಂಥನ</li>
+                  <p>ಶ್ರೀ ಅಪ್ಪಣ್ಣಾಚಾರ್ಯರಿಂದ ರಚಿತವಾದ ಕಲಿಯುಗದ ಕಲ್ಪತರುಗಳಾದ ಶ್ರೀರಾಘವೇಂದ್ರಸ್ವಾಮಿಗಳ 
+                    ಸ್ತೋತ್ರದ ಕನ್ನಡ ಅನುವಾದವನ್ನು ಅನೇಕ ವ್ಯಾಖ್ಯಾನಗಳನ್ನು ವಿಮರ್ಶಿಸಿ ಸಂಶೋಧಿಸಿ 
+                    ಸಂಸ್ಥೆಯಿAದ ಪ್ರಕಾಶಿಸಲಾಗಿದೆ.</p>
+                    <li>
+                      ಶಿವಸ್ತುತಿ
+                    </li>
+                    <p>
+                      ಶ್ರೀನಾರಾಯಣಪಂಡಿತಾಚಾರ್ಯರಿಂದ ರಚಿತವಾದ ಅಪೂರ್ವವಾದ ಶಿವಸ್ತುತಿಗೆ ಇಲ್ಲಿಯವರೆಗೂ 
+                      ಅಪ್ರಕಾಶಿತವಾದ ವ್ಯಾಖ್ಯಾನಗಳು ಹಾಗೂ ಪ್ರಕಾಶಿತವಾದ ವ್ಯಾಖ್ಯಾನಗಳನ್ನು ಸೇರಿಸಿ ಒಂಭತ್ತು 
+                      ವ್ಯಾಖ್ಯಾನಗಳ ಸಹಿತವಾದ ಈ ಕೃತಿಯನ್ನು ಸಂಶೋಧಿಸಿ ಸಂಸ್ಥೆಯಿAದ ಪ್ರಕಾಶಿಸಲಾಗಿದೆ.
+                    </p>
+                    <li>ಆಖ್ಯಾತವಾದ</li>
+                    <p>ಆಖ್ಯಾತದ ಅರ್ಥವನ್ನು ನ್ಯಾಯ, ಮೀಮಾಂಸಾ, ವೇದಾಂತ ಮುಂತಾದ ಶಾಸ್ತ್ರಗಳಲ್ಲಿ 
+                      ಹೇಗೆ ನಿರೂಪಿಸಿದ್ದಾರೆ ಎನ್ನುವ ವಿಷಯವನ್ನು ಏಕತ್ರ ಸಂಗ್ರಹಿಸಿ ಸಂಶೋಧಿಸಿ ಸಂಸ್ಥೆಯಿಂದ 
+                      ಪ್ರಕಾಶಿಸಲಾಗಿದೆ.</p>
+                    <li>ಶ್ರೀವ್ಯಾಸರಾಜ ಸ್ತೋತ್ರ</li>
+                    <p>ವಿಜಯೀಂದ್ರತೀರ್ಥ ಶ್ರೀಪಾದಂಗಳವರಿAದ ರಚಿತವಾದ ಈ ಸ್ತೋತ್ರದ ಕನ್ನಡ ಭಾವಾನುವಾದ 
+                      ಹಾಗೂ ಅದರ ವ್ಯಾಕರಣ ಮುಂತಾದ ವಿಷಯಗಳನ್ನೊಳಗೊಂಡ ಈ ಗ್ರಂಥವನ್ನು ಪ್ರಕಾಶಿಸಲಾಗಿದೆ.</p>
+                      <li>ಶ್ರೀಕೃಷ್ಣ ಶತಕಮ್ </li>
+                      <p>ನಾಡಿನ ಪ್ರಸಿದ್ಧ ವಿದ್ವಾಂಸರಾದ ಹೆಚ್.ವಿ. ನಾಗರಾಜರಾವ್ ಇವರಿಂದ ರಚಿತವಾದ 
+                        ಕೃತಿ ಶ್ರೀಕೃಷ್ಣ ಶತಕಮ್ ಈ ಕೃತಿಯಲ್ಲಿ ನೂರು ವಿಧವಿಧವಾದ ಅಲಕಾರಗಳಿಂದ ಶ್ರೀಕೃಷ್ಣನನ್ನು 
+                        ಸ್ತುತಿಸಿದ್ದಾರೆ. ಈ ಕೃತಿಯನ್ನು ಪ್ರತಿಷ್ಠಾನದಿಂದ ಪ್ರಕಾಶಿಸಲಾಗಿದೆ.</p>
+                </ol>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="categories">
+                <p>
+                  <ol style="counter-reset: my-awesome-counter 10;">
+                    <li>ಶಾಶ್ವತಕೋಶ </li>
+                    <p>
+                      ಸಂಸ್ಕçತದಲ್ಲಿ ಒಂದು ಪದಕ್ಕೆ ಅನೇಕ ವಿಧವಾದ ಅರ್ಥಗಳಿರುತ್ತದೆ ಅಂತಹ 
+                      ನಾನಾರ್ಥಗಳುಳ್ಳ ಶಬ್ದಗಳನ್ನು ಸಂಗ್ರಹಿಸಿರುವ ಕೋಶ ಶಾಶ್ವತಕೋಶ ಈ ಕೃತಿಯನ್ನೂ 
+                      ಸಂಶೋಧಿಸಿ ಪ್ರತಿಷ್ಠಾನದ ವತಿಯಿಂದ ಪ್ರಕಾಶಿಸಲಾಗಿದೆ.
+                    </p>
+                    <li>ಗುಣರತ್ನಾಕರನ ಚತುರ್ಗುಣ ರತ್ನಗಳು</li>
+                    <p>
+                      ನಾಡಿನ ಪ್ರಸಿದ್ದ ವಿದ್ವಾಂಸರಾದ ಸಗ್ರಿ ರಾಘವೇಂದ್ರ ಉಪಾಧ್ಯಾಯರಿಂದ 
+                      ರಚಿತವಾದ ಈ ಕೃತಿಯನ್ನು ಸಂಸ್ಥೆಯವತಿಯಿಂದ ಪ್ರಕಟಿಸಲಾಗಿದೆ.
+                    </p>
+                    <li>ಸುಮಧ್ವವಿಜಯ ಸಾರಸಂಗ್ರಹ</li>
+                    <p>ಶ್ರೀವಿದ್ಯಾಪ್ರಸನ್ನತೀರ್ಥರಿAದ ರಚಿತವಾದ ಈ ಕನ್ನಡ ಕೃತಿಯಲ್ಲಿ ಸುಮಧ್ವವಿಜಯದ 
+                      ೧೬ ಸರ್ಗಗಳ ಸಾರಂಶ ಸಂಗೃಹೀತವಾಗಿದೆ ಯಾವ ಪದ್ಯಗಳಿಂದ ಎಷ್ಟು ವಿಷಯಗಳು 
+                      ಸಂಗೃಹೀತವಾಗಿದೆ ಎಂಬ ಅಂಶದೊAದಿಗೆ ಭಾವಾನುವಾದವನ್ನೂ ನೀಡಲಾಗಿದೆ ಈ ಕೃತಿಯನ್ನು 
+                      ಪ್ರತಿಷ್ಠಾನದವತಿಯಿಂದ ಪ್ರಕಾಶಿಸಲಾಗಿದೆ.</p>
+                      <li>ಅಭಿನವ ಸ್ಮೃತಿಸಂಗ್ರಹ </li>
+                      <p>ನಮ್ಮ ಭಾರತೀಯ ಹಿಂದೂ ಧರ್ಮದಲ್ಲಿ ಅನೇಕ ಹಬ್ಬಗಳನ್ನು ಅಚರಿಸುತ್ತೇವೆ. 
+                        ಇದರ ಕುರಿತು ಹೊಸ ಬೆಳಕನ್ನು ಚೆಲ್ಲುವ ಈ ಕೃತಿಯು ಈವರೆಗೆ ಅಪ್ರಕಾಶಿತವಾಗಿದ್ದು 
+                        ಇದನ್ನು ಸಂಶೋಧಿಸಿ ಪ್ರಕಾಶಿಸಿಲಾಗಿದೆ.</p>
+                  </ol>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact-us" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <form id="contact" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>Subscribe to our Newsletter</h2>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                      <input name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
+                  </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="button">SUBSCRIBE NOW</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="right-info">
+            <ul>
+              <li>
+                <h6>Phone Number</h6>
+                <span>010-020-0340</span>
+              </li>
+              <li>
+                <h6>Email Address</h6>
+                <span>info@xyz.com</span>
+              </li>
+              <li>
+                <h6>Street Address</h6>
+                <span>ABCD</span>
+              </li>
+              <li>
+                <h6>Website URL</h6>
+                <span>www.xyz.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+   
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+
+</body>
+</html>
